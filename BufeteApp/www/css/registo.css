@@ -1,0 +1,36 @@
+﻿#LogoEscola {
+    padding-top: 50px;
+    height: 70%;
+}
+
+center {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.mdc-button {
+    height: 10%;
+    width: 80%;
+    font-size: -webkit-xxx-large;
+    font-weight: bold;
+    margin-bottom: 60px;
+    border-radius: 100px;
+}
+
+h1 {
+    font-size: 7.0rem !important;
+    font-weight: bold !important;
+    margin-top: 30px !important;
+    margin-bottom: 70px !important;
+}
+
+label {
+    font-size: x-large !important;
+}
+
+.mdc-text-field {
+    height: 6%;
+    margin-bottom: 40px;
+    width: 80%;
+}

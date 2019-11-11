@@ -1,10 +1,103 @@
 ﻿<!DOCTYPE html>
-<html>
+<html style="height: -webkit-fill-available;">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/registo.css" />
     <title></title>
 </head>
-<body>
-    <div>O conteúdo é inserido aqui.</div>
+<body style="height: -webkit-fill-available;">
+    <center>
+        <div style="height:40%">
+            <img id="LogoEscola" src="../images/Logotipoescola.jpg" />
+            <br />
+        </div>
+        <h1>Registo</h1>
+        <!--Nome-->
+        <div id="NomeBig" class="mdc-text-field mdc-text-field--outlined">
+            <input class="mdc-text-field__input" id="Nome">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="text-field-hero-input" class="mdc-floating-label">Nome</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+        <!--Ano-->
+        <div id="AnoBig" class="mdc-text-field mdc-text-field--outlined">
+            <input class="mdc-text-field__input" type="number" id="Ano">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="text-field-hero-input" class="mdc-floating-label">Ano</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+        <!--Turma-->
+        <div id="TurmaBig" class="mdc-text-field mdc-text-field--outlined">
+            <input class="mdc-text-field__input" id="Turma">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="text-field-hero-input" class="mdc-floating-label">Turma</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+        <!--Idade-->
+        <div id="IdadeBig" class="mdc-text-field mdc-text-field--outlined">
+            <input class="mdc-text-field__input" type="number" id="Idade">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="text-field-hero-input" class="mdc-floating-label">Idade</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+        <!--Numero do Cartão-->
+        <div id="NcartaoBig" class="mdc-text-field mdc-text-field--outlined">
+            <input class="mdc-text-field__input" id="NCartao">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="text-field-hero-input" class="mdc-floating-label">Nº do Cartão</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+        <!--Numero Processo-->
+        <div id="NprocessoBig" class="mdc-text-field mdc-text-field--outlined">
+            <input class="mdc-text-field__input" type="number" id="NProcesso">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="text-field-hero-input" class="mdc-floating-label">Nº de Processo</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+        <!--Password-->
+        <div id="PasswordBig" class="mdc-text-field mdc-text-field--outlined">
+            <input class="mdc-text-field__input" type="password" id="Password">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="text-field-hero-input" class="mdc-floating-label">Password</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+        <!--butão-->
+        <button id="Registo" class="mdc-button mdc-button--raised">Registar</button>
+    </center>
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../scripts/registo.js"></script>
 </body>
 </html>
